@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="flex">
+    <div className="flex bg-violet-500">
       <div className="w-1/6 bg-gray-200 p-4">
         <nav>
           <ul>
