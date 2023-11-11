@@ -7,10 +7,12 @@ import Contacto from "./components/Contacto";
 import Educacion from "./components/Educacion";
 import Skills from "./components/Skills";
 import SobreMi from "./components/SobreMi";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <Router>
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
