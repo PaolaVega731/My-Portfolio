@@ -2,10 +2,13 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div className="flex bg-violet-500">
+    <div className="flex bg-cyan-600">
       <div className="w-1/6 bg-gray-200 p-4 px-12">
         <nav>
           <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
             <li>
               <Link to="/sobremi">Sobre mi</Link>
             </li>

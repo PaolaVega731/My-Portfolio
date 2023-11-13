@@ -13,7 +13,7 @@ function Educacion() {
           <p> Abril 2023 - Julio 2023</p>
         </div>
         <button
-          className=" text-xl transition ease-in-out delay bg-violet-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+          className=" text-xl transition ease-in-out delay bg-cyan-600 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-600 duration-300 ..."
           onClick={() => setMostrarCertificado(!mostrarCertificado)}
         >
           Certificado
@@ -36,7 +36,7 @@ function Educacion() {
           <p> Julio 2023 - Septiembre 2023</p>
         </div>
         <button
-          class=" text-xl transition ease-in-out delay-150 bg-violet-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+          class=" text-xl transition ease-in-out delay-150 bg-cyan-600 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-600 duration-300 ..."
           onClick={() => setMostrarCertificado(!mostrarCertificado)}
         >
           Certificado
@@ -59,7 +59,7 @@ function Educacion() {
           <p> Septiembre 2023 - Noviembre 2023</p>
         </div>
         <button
-          class=" text-xl transition ease-in-out delay-150 bg-violet-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ..."
+          class=" text-xl transition ease-in-out delay-150 bg-cyan-600 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-600 duration-300 ..."
           onClick={() => setMostrarCertificado(!mostrarCertificado)}
         >
           Certificado
