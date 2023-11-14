@@ -1,12 +1,12 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Skills() {
+  const { t } = useTranslation();
   return (
     <div className="mt-10 mx-auto max-w-2xl">
       <div>
-        <h1 className="text-3xl font-semibold mb-4">
-          Lenguajes de programación
-        </h1>
+        <h1 className="text-3xl font-semibold mb-4">{t("leng")}</h1>
         <div className="flex flex-wrap gap-4 items-center">
           <img
             src={"/public/Html5-icon.svg"}
@@ -29,7 +29,7 @@ function Skills() {
         </div>
       </div>
       <div className="mt-8">
-        <h1 className="text-3xl font-semibold mb-4">Frameworks y librerías</h1>
+        <h1 className="text-3xl font-semibold mb-4">{t("leng1")}</h1>
         <div className="flex flex-wrap gap-4 items-center">
           <img
             src={"/public/Bootstrap-icon.svg"}
@@ -58,7 +58,7 @@ function Skills() {
         </div>
       </div>
       <div className="mt-8">
-        <h1 className="text-3xl font-semibold mb-4">Formándome en...</h1>
+        <h1 className="text-3xl font-semibold mb-4">{t("leng2")}</h1>
         <div className="flex flex-wrap gap-4 items-center">
           <img
             src={"/public/Nodejs-icon.svg"}

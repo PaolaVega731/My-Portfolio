@@ -1,28 +1,31 @@
 import { Link } from "react-router-dom";
+import LanguageSwitcher from "./LanguageSwitcher";
+import { useTranslation } from "react-i18next";
 
 function NavBar() {
+  const { t } = useTranslation();
   return (
     <div className="flex bg-cyan-600">
       <div className="w-1/6 bg-gray-200 p-4 px-12">
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">{t("home")}</Link>
             </li>
             <li>
-              <Link to="/sobremi">Sobre mi</Link>
+              <Link to="/sobremi">{t("sobremi")}</Link>
             </li>
             <li>
-              <Link to="/portfolio">Portfolio</Link>
+              <Link to="/portfolio">{t("porfile")}</Link>
             </li>
             <li>
-              <Link to="/educacion">Educación</Link>
+              <Link to="/educacion">{t("edu")}</Link>
             </li>
             <li>
-              <Link to="/skills">Skills</Link>
+              <Link to="/skills">{t("skills")}</Link>
             </li>
             <li>
-              <Link to="/contacto">Contacto</Link>
+              <Link to="/contacto">{t("contact")}</Link>
             </li>
           </ul>
         </nav>
@@ -30,6 +33,7 @@ function NavBar() {
       <div className=" flex justify-center w-5/6 pt-12 text-5xl animate-pulse">
         <h2>Paola Vega</h2>
       </div>
+      <LanguageSwitcher />
     </div>
   );
 }

@@ -1,22 +1,24 @@
 import React from "react";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function Educacion() {
   const [mostrarCertificado, setMostrarCertificado] = useState(false);
+  const { t } = useTranslation();
   return (
     <div className="mt-10 ml-20">
       <div className="flex flex-col space-y-4">
-        <li className="text-2xl italic hover:not-italic">Desarrollo web</li>
+        <li className="text-2xl italic hover:not-italic">{t("curso1")}</li>
         <p className="text-lg"> CoderHouse</p>
-        <p>Curso de 38 horas dictadas a lo largo de 10 semanas </p>
+        <p>{t("curso11")} </p>
         <div>
-          <p> Abril 2023 - Julio 2023</p>
+          <p>{t("curso111")}</p>
         </div>
         <button
           className=" text-xl transition ease-in-out delay bg-cyan-600 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-600 duration-300 ..."
           onClick={() => setMostrarCertificado(!mostrarCertificado)}
         >
-          Certificado
+          {t("curso")}
         </button>
         <div
           className={`certificado ${mostrarCertificado ? "block" : "hidden"}`}
@@ -29,17 +31,17 @@ function Educacion() {
         </div>
       </div>
       <div className="flex flex-col space-y-4">
-        <li className="text-2xl italic hover:not-italic">JavaScript Vanilla</li>
+        <li className="text-2xl italic hover:not-italic">{t("curso2")}</li>
         <p className="text-lg"> CoderHouse</p>
-        <p>Curso de 36 horas dictadas a lo largo de 9 semanas </p>
+        <p>{t("curso22")}</p>
         <div>
-          <p> Julio 2023 - Septiembre 2023</p>
+          <p>{t("curso222")} </p>
         </div>
         <button
           class=" text-xl transition ease-in-out delay-150 bg-cyan-600 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-600 duration-300 ..."
           onClick={() => setMostrarCertificado(!mostrarCertificado)}
         >
-          Certificado
+          {t("curso")}
         </button>
         <div
           className={`certificado ${mostrarCertificado ? "block" : "hidden"}`}
@@ -54,15 +56,15 @@ function Educacion() {
       <div className="flex flex-col space-y-4">
         <li className="text-2xl italic hover:not-italic"> React Js</li>
         <p className="text-lg"> CoderHouse</p>
-        <p>Curso de 34 horas dictadas a lo largo de 8 semanas </p>
+        <p>{t("curso3")} </p>
         <div>
-          <p> Septiembre 2023 - Noviembre 2023</p>
+          <p> {t("curso33")}</p>
         </div>
         <button
           class=" text-xl transition ease-in-out delay-150 bg-cyan-600 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-600 duration-300 ..."
           onClick={() => setMostrarCertificado(!mostrarCertificado)}
         >
-          Certificado
+          {t("curso")}
         </button>
         <div
           className={`certificado ${mostrarCertificado ? "block" : "hidden"}`}

@@ -1,28 +1,26 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function Portfolio() {
+  const { t } = useTranslation();
+
   return (
     <div className="flex flex-col items-center pt-8">
       <div className="flex p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
           src="/public/Les Vegetarianes.png"
           alt="Les Vegetarianes"
-          className="w-1/3 h-32pt-8 object-contain rounded-l"
+          className="w-1/3 h-25 pt-8 object-contain rounded-l"
         />
         <div className="p-4 w-2/3">
-          <h2 className="font-bold mb-2">
-            Proyecto final de Desarrollo web y JavaScript
-          </h2>
-          <p className="mb-2">
-            Desarrollado con Html, Css, JavaScript, Bootstrap, Sweet Alert2.
-            Responsive web design.
-          </p>
+          <h2 className="font-bold mb-2">{t("work1")}</h2>
+          <p className="mb-2">{t("work11")}</p>
           <a
             href="https://github.com/PaolaVega731/LesVegetarianes"
             className="text-cyan-600 hover:underline"
             target="_blank"
           >
-            Ver en GitHub
+            {t("work111")}
           </a>
           <h1>
             <a
@@ -30,7 +28,7 @@ function Portfolio() {
               className="text-cyan-600 hover:underline"
               target="_blank"
             >
-              Abrir Web
+              {t("work1111")}
             </a>
           </h1>
         </div>
@@ -43,16 +41,14 @@ function Portfolio() {
           className="w-1/2 h-50 object-contain rounded-l"
         />
         <div className="p-4 w-1/2">
-          <h2 className="font-bold mb-2">Proyecto final de React</h2>
-          <p className="mb-2">
-            Desarrollado con React,Bootstrap,Css y Firebase
-          </p>
+          <h2 className="font-bold mb-2">{t("work2")}</h2>
+          <p className="mb-2">{t("work22")}</p>
           <a
             href="https://github.com/PaolaVega731/Organichic"
             className="text-cyan-600 hover:underline"
             target="_blank"
           >
-            Ver en GitHub
+            {t("work111")}
           </a>
           <h1>
             <a
@@ -60,7 +56,7 @@ function Portfolio() {
               className="text-cyan-600 hover:underline"
               target="_blank"
             >
-              Abrir Web
+              {t("work1111")}
             </a>
           </h1>
         </div>
@@ -73,14 +69,14 @@ function Portfolio() {
           className="w-1/3 h-32 object-contain rounded-l"
         />
         <div className="p-4 w-2/3">
-          <h2 className="font-bold mb-2">Mi Porfolio</h2>
-          <p className="mb-2">Desarrollado con React y Tailwind</p>
+          <h2 className="font-bold mb-2">{t("work3")}</h2>
+          <p className="mb-2">{t("work33")}</p>
           <a
             href="https://github.com/PaolaVega731/My-Portfolio"
             className="text-cyan-600 hover:underline"
             target="_blank"
           >
-            Ver en GitHub
+            {t("work111")}
           </a>
           <h1>
             <a
@@ -88,7 +84,7 @@ function Portfolio() {
               className="text-cyan-600 hover:underline"
               target="_blank"
             >
-              Abrir Web
+              {t("work1111")}
             </a>
           </h1>
         </div>

@@ -8,6 +8,7 @@ import Educacion from "./components/Educacion";
 import Skills from "./components/Skills";
 import SobreMi from "./components/SobreMi";
 import NavBar from "./components/NavBar";
+import "./i18n.jsx";
 
 function App() {
   return (
