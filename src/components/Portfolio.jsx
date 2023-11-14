@@ -80,7 +80,7 @@ function Portfolio() {
           </a>
           <h1>
             <a
-              href=""
+              href="https://paolavega731.github.io/My-Portfolio/"
               className="text-cyan-600 hover:underline"
               target="_blank"
             >

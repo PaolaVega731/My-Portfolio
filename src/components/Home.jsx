@@ -11,12 +11,10 @@ function Home() {
           src="../public/Foto CV.jpg"
           alt="Foto Perfil"
         />
-        <h1 className="text-3xl">
-          {t("Hello! I am Paola Vega, Developer Web Front-end Jr.")}
-        </h1>
-        <h2>{t("Training to be a Full stack developer")}</h2>
+        <h1 className="text-3xl">{t("hello")}</h1>
+        <h2>{t("data")}</h2>
         <div>
-          <h2 className=" p-6 text-2xl">{t("Welcome to my profile")}</h2>
+          <h2 className=" p-6 text-2xl">{t("welcome")}</h2>
         </div>
       </div>
       <a
