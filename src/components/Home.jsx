@@ -8,7 +8,7 @@ function Home() {
       <div className="flex flex-col items-center mb-4">
         <img
           className="w-50 h-50 mr-4 rounded-lg "
-          src="../public/Foto CV.jpg"
+          src="/Foto CV.jpg"
           alt="Foto Perfil"
         />
         <h1 className="text-3xl">{t("hello")}</h1>
@@ -18,7 +18,7 @@ function Home() {
         </div>
       </div>
       <a
-        href="/public/CV Paola Vega.jpeg"
+        href="/CV Paola Vega.jpeg"
         className="bg-cyan-600 text-white px-4 py-2 rounded"
         target="_blank"
       >

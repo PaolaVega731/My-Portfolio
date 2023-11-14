@@ -25,7 +25,7 @@ function NavBar() {
               <Link to="/skills">{t("skills")}</Link>
             </li>
             <li>
-              <Link to="/contacto">{t("contact")}</Link>
+              <Link to="/contacto">{t("conta")}</Link>
             </li>
           </ul>
         </nav>

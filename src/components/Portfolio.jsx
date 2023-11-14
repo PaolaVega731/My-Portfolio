@@ -8,7 +8,7 @@ function Portfolio() {
     <div className="flex flex-col items-center pt-8">
       <div className="flex p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
-          src="/public/Les Vegetarianes.png"
+          src="/Les Vegetarianes.png"
           alt="Les Vegetarianes"
           className="w-1/3 h-25 pt-8 object-contain rounded-l"
         />
@@ -36,7 +36,7 @@ function Portfolio() {
 
       <div className="flex p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
-          src="/public/OrganiChic.png"
+          src="/OrganiChic.png"
           alt="OrganiChic"
           className="w-1/2 h-50 object-contain rounded-l"
         />
@@ -64,7 +64,7 @@ function Portfolio() {
 
       <div className="flex p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
-          src="/public/Perfil-foto.jpg"
+          src="/Perfil-foto.jpg"
           alt="Mi Portfolio"
           className="w-1/3 h-32 object-contain rounded-l"
         />
@@ -80,7 +80,7 @@ function Portfolio() {
           </a>
           <h1>
             <a
-              href="https://paolavega731.github.io/My-Portfolio/"
+              href="https://paolavega731.github.io/"
               className="text-cyan-600 hover:underline"
               target="_blank"
             >
