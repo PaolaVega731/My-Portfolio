@@ -38,7 +38,7 @@ function Educacion() {
           <p>{t("curso222")} </p>
         </div>
         <button
-          class=" text-xl transition ease-in-out delay-150 bg-cyan-600 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-600 duration-300 ..."
+          className=" text-xl transition ease-in-out delay-150 bg-cyan-600 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-600 duration-300 ..."
           onClick={() => setMostrarCertificado(!mostrarCertificado)}
         >
           {t("curso")}
@@ -61,7 +61,7 @@ function Educacion() {
           <p> {t("curso33")}</p>
         </div>
         <button
-          class=" text-xl transition ease-in-out delay-150 bg-cyan-600 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-600 duration-300 ..."
+          className=" text-xl transition ease-in-out delay-150 bg-cyan-600 hover:-translate-y-1 hover:scale-110 hover:bg-cyan-600 duration-300 ..."
           onClick={() => setMostrarCertificado(!mostrarCertificado)}
         >
           {t("curso")}

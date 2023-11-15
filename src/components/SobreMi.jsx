@@ -20,7 +20,7 @@ function SobreMi() {
             className="bg-cyan-600 text-white px-1 py-0 rounded"
             target="_blank"
           >
-            <button class="rounded-xs cursor-pointer hover:scale-110 hover:bg-cyan-600 duration-300 ...">
+            <button className="rounded-xs cursor-pointer hover:scale-110 hover:bg-cyan-600 duration-300 ...">
               {t("linkedin")}
             </button>
           </a>

@@ -6,7 +6,7 @@ i18n.use(initReactI18next).init({
     en: {
       translations: {
         hello: "Hello! I am Paola Vega, Developer Web Front-end Jr.",
-        data: "Training to be a Full stack developer",
+        data: "Training to be a Full Stack developer",
         welcome: "Welcome to my profile",
         my: "Hello, my name is Paola, I live in Costa Azul, Uruguay. I am proactive, organized and responsible person. My goal is to be part of a dynamic and challenging team where i can share my experience and at the same time acquire new knowledge. I started mu professional career as an Administrative Accountant more than 15 years ago;In these last 6 years I also acquired knowledge as an Analyst in Foreign Trade and Logistics Control in a Chemical Plant. At the end of 2022 I decided to take an omportant turn in my professional career and began my studies in Web Programming. I am currently continuing to train in Backend Programming and am looking to expand my work field in the world of.Web Development.",
         check: "Ckeck out my work experience at:",

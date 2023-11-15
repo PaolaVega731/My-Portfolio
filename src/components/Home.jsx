@@ -18,11 +18,11 @@ function Home() {
         </div>
       </div>
       <a
-        href="/CV Paola Vega.jpeg"
+        href="/public/CV Paola Vega.jpeg"
         className="bg-cyan-600 text-white px-4 py-2 rounded"
         target="_blank"
       >
-        <button class="rounded-lg cursor-pointer hover:scale-110 hover:bg-cyan-600 duration-300 ...">
+        <button className="rounded-lg cursor-pointer hover:scale-110 hover:bg-cyan-600 duration-300 ...">
           Mi CV
         </button>
       </a>
