@@ -7,7 +7,7 @@ function SobreMi() {
     <div className="p-20 flex justify-center items-center">
       <img
         className="w-90 h-80 mr-4"
-        src="/Perfil-foto.jpg"
+        src="/My-Portfolio/Perfil-foto.jpg"
         alt={t("profilePicture")}
       />
       <div className="text-left">

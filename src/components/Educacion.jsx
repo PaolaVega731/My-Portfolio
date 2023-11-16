@@ -25,7 +25,7 @@ function Educacion() {
         >
           <img
             className="w-90 h-80"
-            src="/Certificado Desarrollo Web.jpeg"
+            src="/My-Portfolio/Certificado Desarrollo Web.jpeg"
             alt="Certificado JavaScript"
           />
         </div>
@@ -48,7 +48,7 @@ function Educacion() {
         >
           <img
             className="w-90 h-80"
-            src="/Certificado JavaScript.jpg"
+            src="/My-Portfolio/Certificado JavaScript.jpg"
             alt="Certificado JavaScript"
           />
         </div>
@@ -71,7 +71,7 @@ function Educacion() {
         >
           <img
             className="w-90 h-80"
-            src="/Certificado JavaScript.jpg"
+            src="/My-Portfolio/Certificado JavaScript.jpg"
             alt="Certificado JavaScript"
           />
         </div>

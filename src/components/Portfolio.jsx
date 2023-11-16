@@ -8,7 +8,7 @@ function Portfolio() {
     <div className="flex flex-col items-center pt-8">
       <div className="flex p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
-          src="/Les Vegetarianes.png"
+          src="/My-Portfolio/Les Vegetarianes.png"
           alt="Les Vegetarianes"
           className="w-1/3 h-25 pt-8 object-contain rounded-l"
         />
@@ -36,7 +36,7 @@ function Portfolio() {
 
       <div className="flex p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
-          src="/OrganiChic.png"
+          src="/My-Portfolio/OrganiChic.png"
           alt="OrganiChic"
           className="w-1/2 h-50 object-contain rounded-l"
         />
@@ -64,7 +64,7 @@ function Portfolio() {
 
       <div className="flex p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
-          src="/Perfil-foto.jpg"
+          src="/My-Portfolio/Perfil-foto.jpg"
           alt="Mi Portfolio"
           className="w-1/3 h-32 object-contain rounded-l"
         />
