@@ -4,17 +4,17 @@ import { useTranslation } from "react-i18next";
 function Home() {
   const { t } = useTranslation();
   return (
-    <div className="w-6/6 p-12 flex flex-col items-center">
+    <div className="w-full p-12 flex flex-col items-center">
       <div className="flex flex-col items-center mb-4">
         <img
-          className="w-50 h-50 mr-4 rounded-lg "
-          src="/Foto CV.jpg"
+          className="w-50 h-50 md:w-32 md:h-32 mr-4 rounded-lg "
+          src="/My-Portfolio/Foto CV.jpg"
           alt="Foto Perfil"
         />
-        <h1 className="text-3xl">{t("hello")}</h1>
-        <h2>{t("data")}</h2>
+        <h1 className="text-3xl md:text-2xl">{t("hello")}</h1>
+        <h2 className="md:text-xl">{t("data")}</h2>
         <div>
-          <h2 className=" p-6 text-2xl">{t("welcome")}</h2>
+          <h2 className="p-6 text-2xl md:text-xl">{t("welcome")}</h2>
         </div>
       </div>
       <a

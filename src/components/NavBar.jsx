@@ -6,7 +6,7 @@ function NavBar() {
   const { t } = useTranslation();
   return (
     <div className="flex bg-cyan-600">
-      <div className="w-1/6 bg-gray-200 p-4 px-12">
+      <div className="w-full md:w-1/6 bg-gray-200 p-4 px-12">
         <nav>
           <ul>
             <li>
@@ -30,7 +30,7 @@ function NavBar() {
           </ul>
         </nav>
       </div>
-      <div className=" flex justify-center w-5/6 pt-12 text-5xl animate-pulse">
+      <div className="flex justify-center w-full md:w-5/6 pt-16 text-2xl md:text-5xl animate-pulse">
         <h2>Paola Vega</h2>
       </div>
       <LanguageSwitcher />

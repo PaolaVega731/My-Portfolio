@@ -4,13 +4,13 @@ import { useTranslation } from "react-i18next";
 function SobreMi() {
   const { t } = useTranslation();
   return (
-    <div className="p-20 flex justify-center items-center">
+    <div className="p-20 flex flex-col md:flex-row justify-center items-center">
       <img
-        className="w-90 h-80 mr-4"
+        className="w-90 h-80 md:w-64 md:h-64 mr-4"
         src="/My-Portfolio/Perfil-foto.jpg"
         alt={t("profilePicture")}
       />
-      <div className="text-left">
+      <div className="text-center md:text-left mt-4 md:mt-0">
         <p>{t("my")},</p>
 
         <h1 className="mt-8 text-lg">

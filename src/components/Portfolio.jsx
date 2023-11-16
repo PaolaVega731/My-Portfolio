@@ -6,13 +6,13 @@ function Portfolio() {
 
   return (
     <div className="flex flex-col items-center pt-8">
-      <div className="flex p-4 shadow-md rounded mb-4 w-full max-w-xl">
+      <div className="flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
           src="/My-Portfolio/Les Vegetarianes.png"
           alt="Les Vegetarianes"
-          className="w-1/3 h-25 pt-8 object-contain rounded-l"
+          className="w-full h-auto md:w-1/3 md:h-25 pt-8 object-contain rounded-l"
         />
-        <div className="p-4 w-2/3">
+        <div className="p-4 w-full md:w-2/3">
           <h2 className="font-bold mb-2">{t("work1")}</h2>
           <p className="mb-2">{t("work11")}</p>
           <a
@@ -34,13 +34,13 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="flex p-4 shadow-md rounded mb-4 w-full max-w-xl">
+      <div className="flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
           src="/My-Portfolio/OrganiChic.png"
           alt="OrganiChic"
-          className="w-1/2 h-50 object-contain rounded-l"
+          className="w-full h-auto md:w-1/3 md:h-25 pt-8 object-contain rounded-l"
         />
-        <div className="p-4 w-1/2">
+        <div className="p-4 w-full md:w-2/3">
           <h2 className="font-bold mb-2">{t("work2")}</h2>
           <p className="mb-2">{t("work22")}</p>
           <a
@@ -62,13 +62,13 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="flex p-4 shadow-md rounded mb-4 w-full max-w-xl">
+      <div className="flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
           src="/My-Portfolio/Perfil-foto.jpg"
           alt="Mi Portfolio"
-          className="w-1/3 h-32 object-contain rounded-l"
+          className="w-full h-auto md:w-1/3 md:h-25 pt-8 object-contain rounded-l"
         />
-        <div className="p-4 w-2/3">
+        <div className="p-4 w-full md:w-2/3">
           <h2 className="font-bold mb-2">{t("work3")}</h2>
           <p className="mb-2">{t("work33")}</p>
           <a

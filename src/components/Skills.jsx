@@ -4,9 +4,9 @@ import { useTranslation } from "react-i18next";
 function Skills() {
   const { t } = useTranslation();
   return (
-    <div className="mt-10 mx-auto max-w-2xl">
+    <div className="flex flex-col items-center justify-center mt-10 mx-auto max-w-2xl">
       <div>
-        <h1 className="text-3xl font-semibold mb-4">{t("leng")}</h1>
+        <h1 className="text-2xl md:text-2xl font-semibold mb-4">{t("leng")}</h1>
         <div className="flex flex-wrap gap-4 items-center">
           <img
             src={"/My-Portfolio/Html5-icon.svg"}
@@ -29,7 +29,9 @@ function Skills() {
         </div>
       </div>
       <div className="mt-8">
-        <h1 className="text-3xl font-semibold mb-4">{t("leng1")}</h1>
+        <h1 className="flex flex-col items-center justify-center text-3xl md:text-2xl font-semibold mb-4">
+          {t("leng1")}
+        </h1>
         <div className="flex flex-wrap gap-4 items-center">
           <img
             src={"/My-Portfolio/Bootstrap-icon.svg"}
@@ -54,7 +56,9 @@ function Skills() {
         </div>
       </div>
       <div className="mt-8">
-        <h1 className="text-3xl font-semibold mb-4">{t("leng2")}</h1>
+        <h1 className="text-3xl md:text-2xl font-semibold mb-4">
+          {t("leng2")}
+        </h1>
         <div className="flex flex-wrap gap-4 items-center">
           <img
             src={"/My-Portfolio/Nodejs-icon.svg"}
