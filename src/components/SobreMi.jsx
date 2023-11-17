@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 function SobreMi() {
   const { t } = useTranslation();
   return (
-    <div className="p-20 flex flex-col md:flex-row justify-center items-center">
+    <div className="bg-rose-100 min-h-screen p-20 pt-0 flex flex-col md:flex-row justify-center items-center">
       <img
         className="w-90 h-80 md:w-64 md:h-64 mr-4"
         src="/My-Portfolio/Perfil-foto.jpg"

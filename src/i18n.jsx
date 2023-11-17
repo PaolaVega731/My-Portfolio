@@ -5,10 +5,10 @@ i18n.use(initReactI18next).init({
   resources: {
     en: {
       translations: {
-        hello: "Hello! I am Paola Vega, Developer Web Front-end Jr.",
+        hello: "Hello! My name is Paola Vega, Junior Web front end Developer.",
         data: "Training to be a Full Stack developer",
         welcome: "Welcome to my profile",
-        my: "Hello, my name is Paola, I live in Costa Azul, Uruguay. I am proactive, organized and responsible person. My goal is to be part of a dynamic and challenging team where i can share my experience and at the same time acquire new knowledge. I started mu professional career as an Administrative Accountant more than 15 years ago;In these last 6 years I also acquired knowledge as an Analyst in Foreign Trade and Logistics Control in a Chemical Plant. At the end of 2022 I decided to take an omportant turn in my professional career and began my studies in Web Programming. I am currently continuing to train in Backend Programming and am looking to expand my work field in the world of.Web Development.",
+        my: "Hello, my name is Paola, I live in Costa Azul, Uruguay. I am proactive, organized and responsible person. My goal is to be part of a dynamic and challenging team where I can share my experience and at the same time acquire new knowledge. I started my professional career as an Administrative Accountant more than 15 years ago. In these last 6 years I also acquired knowledge as an Analyst in Foreign Trade and Logistics Control in a Chemical Plant. At the end of 2022 I decided to take an important turn in my professional career and began my studies in Web Programming. I am currently continuing to train in Backend Programming and I am looking to expand my work field in the world of Web Development.",
         check: "Ckeck out my work experience at:",
         linkedin: "My LinkedIn",
         work1: "Final web development and JavaScript project",
@@ -33,7 +33,7 @@ i18n.use(initReactI18next).init({
         curso2: "Vanilla JavaScript",
         curso22: "36-hour course taught over 9 weeks",
         curso222: "July 2023 - September 2023",
-        curso3: "34-hour course taught over 8 weeks",
+        curso3: "30-hour course taught over 8 weeks",
         curso33: "September 2023 - November 2023",
         leng: "Programming languages",
         leng1: "Frameworks and libraries",
@@ -81,7 +81,7 @@ i18n.use(initReactI18next).init({
         curso2: "JavaScript Vanilla",
         curso22: "Curso de 36 horas dictadas a lo largo de 9 semanas",
         curso222: "Julio 2023 - Septiembre 2023",
-        curso3: "Curso de 34 horas dictadas a lo largo de 8 semanas",
+        curso3: "Curso de 30 horas dictadas a lo largo de 8 semanas",
         curso33: "Septiembre 2023 - Noviembre 2023",
         leng: "Lenguajes de programación",
         leng1: "Frameworks y librerías",

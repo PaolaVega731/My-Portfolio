@@ -5,7 +5,7 @@ function Contacto() {
   const { t } = useTranslation();
 
   return (
-    <div className="text-center">
+    <div className="bg-rose-100 min-h-screen text-center">
       <div className="flex justify-center pb-10">
         <h1 className="text-4xl pt-10"> {t("contact")}</h1>
       </div>
