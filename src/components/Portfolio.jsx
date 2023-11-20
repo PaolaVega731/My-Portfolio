@@ -6,7 +6,7 @@ function Portfolio() {
 
   return (
     <div className=" bg-rose-100 min-h-screen flex flex-col items-center pt-8">
-      <div className="flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
+      <div className=" bg-orange-100 flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
           src="/My-Portfolio/Les Vegetarianes.png"
           alt="Les Vegetarianes"
@@ -34,7 +34,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
+      <div className="bg-orange-100 flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
           src="/My-Portfolio/OrganiChic.png"
           alt="OrganiChic"
@@ -52,7 +52,7 @@ function Portfolio() {
           </a>
           <h1>
             <a
-              href=""
+              href="https://organichic-efzw.vercel.app/"
               className="text-cyan-600 hover:underline"
               target="_blank"
             >
@@ -62,7 +62,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
+      <div className="bg-orange-100 flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
           src="/My-Portfolio/Perfil-foto.jpg"
           alt="Mi Portfolio"

@@ -4,10 +4,10 @@ import { useTranslation } from "react-i18next";
 function Skills() {
   const { t } = useTranslation();
   return (
-    <div className="bg-rose-100 min-h-screen flex items-center justify-center">
-      <div className="bg-rose-100 min-h-screen flex flex-col items-center justify-center mt-10 mx-auto max-w-2xl">
+    <div className="bg-rose-100 min-h-screen flex items-start justify-center">
+      <div className="bg-rose-100 min-h-3/4screen flex flex-col items-center justify-center mx-auto max-w-2xl">
         <div className="flex flex-col items-center md:items-start">
-          <h1 className="text-2xl md:text-2xl font-semibold mb-4">
+          <h1 className="text-2xl md:text-2xl font-semibold mb-4 ">
             {t("leng")}
           </h1>
           <div className="flex flex-wrap gap-4 items-center justify-center md:justify-start">
