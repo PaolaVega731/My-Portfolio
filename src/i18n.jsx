@@ -5,7 +5,8 @@ i18n.use(initReactI18next).init({
   resources: {
     en: {
       translations: {
-        hello: "Hello! My name is Paola Vega, Junior Web front end Developer.",
+        hello:
+          "Hello! My name is Paola Vega, I am Junior Web front end Developer.",
         data: "Training to be a Full Stack developer",
         welcome: "Welcome to my profile",
         my: "Hello, my name is Paola, I live in Costa Azul, Uruguay. I am proactive, organized and responsible person. My goal is to be part of a dynamic and challenging team where I can share my experience and at the same time acquire new knowledge. I started my professional career as an Administrative Accountant more than 15 years ago. In these last 6 years I also acquired knowledge as an Analyst in Foreign Trade and Logistics Control in a Chemical Plant. At the end of 2022 I decided to take an important turn in my professional career and began my studies in Web Programming. I am currently continuing to train in Backend Programming and I am looking to expand my work field in the world of Web Development.",
@@ -17,8 +18,9 @@ i18n.use(initReactI18next).init({
         work111: "See on GitHub",
         work1111: " Open Web",
         work2: "React final project",
-        work22: "Developed with React, Bootstrap, Css and Firebase",
-        work33: "Developed with React and Tailwind",
+        work22:
+          "Developed with React, Bootstrap, Css and Firebase. Responsive web design.",
+        work33: "Developed with React and Tailwind. Responsive web design.",
         work3: "My Profile",
         home: "Home",
         sobremi: "About me",
@@ -65,8 +67,9 @@ i18n.use(initReactI18next).init({
         work111: "Ver en GitHub",
         work1111: "Abrir Web",
         work2: "Proyecto final de React",
-        work22: "Desarrollado con React, Bootstarp, Css y Firebase",
-        work33: "Desarrollado con React y Tailwind",
+        work22:
+          "Desarrollado con React, Bootstarp, Css y Firebase. Responsive web design.",
+        work33: "Desarrollado con React y Tailwind. Responsive web design.",
         work3: "Mi Portfolio",
         home: "Home",
         sobremi: "Sobre mi",
