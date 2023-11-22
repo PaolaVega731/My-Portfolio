@@ -5,8 +5,8 @@ function Portfolio() {
   const { t } = useTranslation();
 
   return (
-    <div className=" bg-rose-50 min-h-screen flex flex-col items-center pt-8">
-      <div className=" bg-cyan-50 flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
+    <div className="  min-h-screen flex flex-col items-center pt-8">
+      <div className=" bg-[#FAF2D3] flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
           src="/My-Portfolio/Les Vegetarianes.png"
           alt="Les Vegetarianes"
@@ -34,7 +34,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="bg-cyan-50 flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
+      <div className="bg-[#FAF2D3] flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
           src="/My-Portfolio/OrganiChic.png"
           alt="OrganiChic"
@@ -62,7 +62,7 @@ function Portfolio() {
         </div>
       </div>
 
-      <div className="bg-cyan-50 flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
+      <div className="bg-[#FAF2D3] flex flex-col md:flex-row p-4 shadow-md rounded mb-4 w-full max-w-xl">
         <img
           src="/My-Portfolio/Perfil-foto.jpg"
           alt="Mi Portfolio"

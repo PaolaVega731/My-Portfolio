@@ -8,7 +8,7 @@ function Educacion() {
   const [mostrarCertificado3, setMostrarCertificado3] = useState(false);
   const { t } = useTranslation();
   return (
-    <div className="bg-rose-50 min-h-screen flex items-center justify-center">
+    <div className=" min-h-screen flex items-center justify-center">
       <div className="flex flex-col items-center justify-center lg:mt-0 mx-auto max-w-md md:max-w-full md:flex md:flex-col md:items-center pt-10">
         <div className="flex flex-col space-y-4 items-center md:items-start">
           <li className="text-2xl italic hover:not-italic">{t("curso1")}</li>

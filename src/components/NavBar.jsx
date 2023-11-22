@@ -30,7 +30,7 @@ function NavBar() {
           </ul>
         </nav>
       </div>
-      <div className="flex justify-center w-full md:w-5/6 pt-16 text-2xl md:text-5xl animate-pulse">
+      <div className="flex justify-center w-full md:w-5/6 pt-16 text-2xl sm:text-3xl md:text-5x1 animate-pulse">
         <h2>Web Developer</h2>
       </div>
       <LanguageSwitcher />

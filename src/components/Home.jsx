@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 function Home() {
   const { t } = useTranslation();
   return (
-    <div className="bg-rose-50 min-h-screen w-full p-12 flex flex-col items-center">
+    <div className=" min-h-screen w-full p-12 flex flex-col items-center">
       <div className="flex flex-col items-center mb-4">
         <img
           className="w-50 h-50 md:w-32 md:h-32 mr-4 rounded-lg "

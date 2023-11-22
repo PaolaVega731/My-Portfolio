@@ -10,8 +10,18 @@ function LanguageSwitcher() {
 
   return (
     <div>
-      <button onClick={() => changeLanguage("en")}>EN</button>
-      <button onClick={() => changeLanguage("es")}>ES</button>
+      <button
+        onClick={() => changeLanguage("en")}
+        className="text-lg px-2 py-1 transform hover:scale-150 transition-transform"
+      >
+        EN
+      </button>
+      <button
+        onClick={() => changeLanguage("es")}
+        className="text-lg px-2 py-1 transform hover:scale-150 transition-transform"
+      >
+        ES
+      </button>
     </div>
   );
 }
