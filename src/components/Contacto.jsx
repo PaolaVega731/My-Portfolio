@@ -25,7 +25,7 @@ function Contacto() {
       <p className="pb-8">
         <strong className="pr-2">WhatsApp:</strong>
         <a
-          href="https://web.whatsapp.com/"
+          href="https://wa.me/+59897192004?text=Hola%20Paola%2C%20quiero%20contactarte"
           className="bg-cyan-600 text-white px-0 py-0 rounded"
           target="_blank"
         >
