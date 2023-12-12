@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 
 function LanguageSwitcher() {
@@ -12,15 +11,23 @@ function LanguageSwitcher() {
     <div>
       <button
         onClick={() => changeLanguage("en")}
-        className="text-lg px-2 py-1 transform hover:scale-150 transition-transform"
+        className='text-lg px-2 py-1 transform hover:scale-150 transition-transform'
       >
-        EN
+        <img
+          src={"/My-Portfolio/Flag_of_the_United_States.svg"}
+          alt='Flag_of_the_United_States.svg'
+          className='w-8 h-9'
+        />
       </button>
       <button
         onClick={() => changeLanguage("es")}
-        className="text-lg px-2 py-1 transform hover:scale-150 transition-transform"
+        className='text-lg px-2 py-1 transform hover:scale-150 transition-transform'
       >
-        ES
+        <img
+          src={"/My-Portfolio/Flag_of_Spain.svg"}
+          alt='Flag_of_Spain.svg'
+          className='w-8 h-5'
+        />
       </button>
     </div>
   );

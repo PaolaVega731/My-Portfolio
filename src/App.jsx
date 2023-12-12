@@ -1,5 +1,4 @@
 import "./App.css";
-import React from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
@@ -15,12 +14,12 @@ function App() {
     <Router>
       <NavBar />
       <Routes>
-        <Route path="*" element={<Home />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/educacion" element={<Educacion />} />
-        <Route path="/sobremi" element={<SobreMi />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/contacto" element={<Contacto />} />
+        <Route path='*' element={<Home />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/educacion' element={<Educacion />} />
+        <Route path='/sobremi' element={<SobreMi />} />
+        <Route path='/skills' element={<Skills />} />
+        <Route path='/contacto' element={<Contacto />} />
       </Routes>
     </Router>
   );
