@@ -22,7 +22,10 @@ i18n.use(initReactI18next).init({
           "Developed with React, Bootstrap, Css and Firebase. Responsive web design.",
         work33: "Developed with React and Tailwind. Responsive web design.",
         work3: "My Profile",
+<<<<<<< HEAD
         work4: "KGC",
+=======
+>>>>>>> eaf5cbfe23435f97f0fa6bc3a0b3120f4ad9439c
         home: "Home",
         sobremi: "About me",
         porfile: "Portfolio",
@@ -72,7 +75,10 @@ i18n.use(initReactI18next).init({
           "Desarrollado con React, Bootstarp, Css y Firebase. Responsive web design.",
         work33: "Desarrollado con React y Tailwind. Responsive web design.",
         work3: "Mi Portfolio",
+<<<<<<< HEAD
         work4: "KGC",
+=======
+>>>>>>> eaf5cbfe23435f97f0fa6bc3a0b3120f4ad9439c
         home: "Home",
         sobremi: "Sobre mi",
         porfile: "Portfolio",
