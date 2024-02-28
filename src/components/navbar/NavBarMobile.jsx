@@ -1,0 +1,55 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import LanguageSwitcher from "../LanguageSwitcher.jsx";
+import { useTranslation } from "react-i18next";
+
+function NavBarMobile() {
+  const { t } = useTranslation();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
+  return (
+    <div className="flex flex-col bg-gray-600">
+      <div className="flex justify-between items-center p-4">
+        <h2 className="text-white text-xl">Web Developer</h2>
+        <button className="text-white text-xl" onClick={toggleMenu}>
+          ☰
+        </button>
+      </div>
+      {isMenuOpen && (
+        <nav>
+          <ul>
+            <li onClick={closeMenu}>
+              <Link to="/">{t("home")}</Link>
+            </li>
+            <li onClick={closeMenu}>
+              <Link to="/sobremi">{t("sobremi")}</Link>
+            </li>
+            <li onClick={closeMenu}>
+              <Link to="/portfolio">{t("porfile")}</Link>
+            </li>
+            <li onClick={closeMenu}>
+              <Link to="/educacion">{t("edu")}</Link>
+            </li>
+            <li onClick={closeMenu}>
+              <Link to="/skills">{t("skills")}</Link>
+            </li>
+            <li onClick={closeMenu}>
+              <Link to="/contacto">{t("conta")}</Link>
+            </li>
+          </ul>
+        </nav>
+      )}
+      <LanguageSwitcher />
+    </div>
+  );
+}
+
+export default NavBarMobile;
