@@ -3,13 +3,9 @@ import { useTranslation } from "react-i18next";
 function Skills() {
   const { t } = useTranslation();
   return (
-<<<<<<< HEAD
-    <div className=' min-h-screen flex items-start justify-center pt-8 lg:pt-32'>
-      <div className='pt-16  min-h-3/4screen flex flex-col items-center justify-center mx-auto max-w-2xl'>
-=======
-    <div className=' min-h-screen flex items-start justify-center'>
-      <div className=' pt-12  min-h-3/4screen flex flex-col items-center justify-center mx-auto max-w-2xl'>
->>>>>>> eaf5cbfe23435f97f0fa6bc3a0b3120f4ad9439c
+    <div className='min-h-screen flex items-start justify-center pt-24 lg:pt-32'>
+      <div className='pt-16 min-h-3/4screen flex flex-col items-center justify-center mx-auto max-w-2xl'>
+
         <div className='flex flex-col items-center md:items-start'>
           <h1 className='text-2xl md:text-2xl font-semibold mb-4 hover:scale-110'>
             {t("leng")}

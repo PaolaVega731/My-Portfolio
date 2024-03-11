@@ -1,16 +1,15 @@
-
-import {FaLinkedin } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-4 lg:py-16 text-center">
-      <div className="flex justify-center items-center mb-4">
+    <footer className="bg-gray-800 text-white py-4 lg:py-16 text-center mt-auto">
+      <div className="flex justify-center items-center mb-2">
         <div className="w-8 h-8 rounded-full bg-white flex justify-center items-center mr-2">
           <span className="text-gray-800 text-xl">C</span>
         </div>
         <p className="text-sm">Copyright 2023</p>
       </div>
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-2">
         <a
           href="https://www.linkedin.com/in/paola-vega-578093149/"
           target="_blank"

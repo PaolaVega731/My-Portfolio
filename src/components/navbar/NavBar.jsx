@@ -5,36 +5,34 @@ import { useTranslation } from "react-i18next";
 function NavBar() {
   const { t } = useTranslation();
   return (
-    <div className="flex bg-gray-600">
-      <div className="w-full md:w-1/6 bg-gray-200 p-4 px-12">
+    <div className="flex bg-gray-600 w-full py-12">
+      <div className="w-full md:w-1/4 p-4 px-8 flex items-center">
         <nav>
-          <ul>
-            <li>
-              <Link to="/">{t("home")}</Link>
+          <ul className="flex flex-row"> 
+            <li className="mr-12 text-2xl"> 
+              <Link to="/" className="overflow-hidden whitespace-nowrap">{t("home")}</Link>
             </li>
-            <li>
-              <Link to="/sobremi">{t("sobremi")}</Link>
+            <li className="mr-12 text-2xl">
+              <Link to="/sobremi" className="overflow-hidden whitespace-nowrap">{t("sobremi")}</Link>
             </li>
-            <li>
-              <Link to="/portfolio">{t("porfile")}</Link>
+            <li className="mr-12 text-2xl">
+              <Link to="/educacion" className="overflow-hidden whitespace-nowrap">{t("edu")}</Link>
             </li>
-            <li>
-              <Link to="/educacion">{t("edu")}</Link>
+            <li className="mr-12 text-2xl">
+              <Link to="/skills" className="overflow-hidden whitespace-nowrap">{t("skills")}</Link>
             </li>
-            <li>
-              <Link to="/skills">{t("skills")}</Link>
-            </li>
-            <li>
-              <Link to="/contacto">{t("conta")}</Link>
+            <li className="mr-12 text-2xl">
+              <Link to="/contacto" className="overflow-hidden whitespace-nowrap" >{t("conta")}</Link>
             </li>
           </ul>
         </nav>
       </div>
-      <div className="flex justify-center w-full md:w-5/6 pt-16 px-8 text-2xl sm:text-3xl md:text-5x1 animate-pulse">
-        <h2>Web Developer</h2>
+      <div className="w-full md:w-3/4 p-4 flex items-center justify-center">
+        <h2 className="text-2xl lg:text-5xl sm:text-3xl md:text-5xl animate-pulse">My Portfolio</h2>
       </div>
       <LanguageSwitcher />
     </div>
   );
 }
+
 export default NavBar;

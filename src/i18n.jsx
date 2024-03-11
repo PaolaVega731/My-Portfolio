@@ -9,6 +9,7 @@ i18n.use(initReactI18next).init({
           "Hello! My name is Paola Vega, I am Junior Web front end Developer.",
         data: "Training to be a Full Stack developer",
         welcome: "Welcome to my profile",
+        projectsTitle:"My Projects",
         my: "Hello, my name is Paola, I live in Costa Azul, Uruguay. I am proactive, organized and responsible person. My goal is to be part of a dynamic and challenging team where I can share my experience and at the same time acquire new knowledge. I started my professional career as an Administrative Accountant more than 15 years ago. In these last 6 years I also acquired knowledge as an Analyst in Foreign Trade and Logistics Control in a Chemical Plant. At the end of 2022 I decided to take an important turn in my professional career and began my studies in Web Programming. I am currently continuing to train in Backend Programming and I am looking to expand my work field in the world of Web Development.",
         check: "Ckeck out my work experience at:",
         linkedin: "My LinkedIn",
@@ -22,10 +23,7 @@ i18n.use(initReactI18next).init({
           "Developed with React, Bootstrap, Css and Firebase. Responsive web design.",
         work33: "Developed with React and Tailwind. Responsive web design.",
         work3: "My Profile",
-<<<<<<< HEAD
         work4: "KGC",
-=======
->>>>>>> eaf5cbfe23435f97f0fa6bc3a0b3120f4ad9439c
         home: "Home",
         sobremi: "About me",
         porfile: "Portfolio",
@@ -52,6 +50,7 @@ i18n.use(initReactI18next).init({
         hello: "Hola! Soy Paola Vega, Desarrolladora Front-end Jr.",
         data: "Formandome para Desarrolladora Full Stack",
         welcome: "Bienvenido a mi portfolio",
+        projectsTitle: "Mis proyectos",
         my: `Hola, mi nombre es Paola, vivo en Costa Azul, Uruguay. Soy un persona
         proactiva,organizada y responsable. Mi objetivo es formar parte de un
         equipo dinámico y desafiante donde poder compartir mi experiencia y a
@@ -75,10 +74,10 @@ i18n.use(initReactI18next).init({
           "Desarrollado con React, Bootstarp, Css y Firebase. Responsive web design.",
         work33: "Desarrollado con React y Tailwind. Responsive web design.",
         work3: "Mi Portfolio",
-<<<<<<< HEAD
+
         work4: "KGC",
-=======
->>>>>>> eaf5cbfe23435f97f0fa6bc3a0b3120f4ad9439c
+
+ 
         home: "Home",
         sobremi: "Sobre mi",
         porfile: "Portfolio",
