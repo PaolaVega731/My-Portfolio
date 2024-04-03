@@ -5,13 +5,16 @@ function LanguageSwitcher() {
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
+    
+    console.log(language);
+   
   };
-
+  
   return (
-    <div>
+    <div className="flex justify-center  flex-col   items-center ">
       <button
         onClick={() => changeLanguage("en")}
-        className='text-lg px-2 py-2 transform hover:scale-150 transition-transform'
+        className='text-lg px-2   transform hover:scale-150 transition-transform'
       >
         <img
           src={"/My-Portfolio/Flag_of_the_United_States.svg"}
@@ -21,7 +24,7 @@ function LanguageSwitcher() {
       </button>
       <button
         onClick={() => changeLanguage("es")}
-        className='text-lg px-2 py-1 transform hover:scale-150 transition-transform'
+        className='text-lg px-2 transform hover:scale-150 transition-transform'
       >
         <img
           src={"/My-Portfolio/Flag_of_Spain.svg"}
