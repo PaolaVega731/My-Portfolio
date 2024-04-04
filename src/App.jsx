@@ -11,8 +11,9 @@ import NavBar from "./components/navbar/NavBar.jsx";
 import NavBarMobile from "./components/navbar/NavBarMobile.jsx";
 import Footer from "./components/Footer.jsx";
 import { useMediaQuery } from "react-responsive"; 
+import axios from "../axiosConfig.js"; 
 import "./i18n.jsx";
- 
+
 function App() {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" }); 
 
@@ -20,13 +21,11 @@ function App() {
     <Router>
       {isMobile ? <NavBarMobile /> : <NavBar />} 
       <Routes>
-     
         <Route path='*' element={isMobile ? <HomeMobile /> : <Home />} />
-      
         <Route path='/educacion' element={isMobile ? <EducacionMobile /> : <Educacion />} />
         <Route path='/sobremi' element={<SobreMi />} />
         <Route path='/skills' element={<Skills />} />
-        <Route path='/contacto' element={<Contacto />} />
+        <Route path='/contacto' element={<Contacto axios={axios} />} /> 
       </Routes>
       <Footer /> 
     </Router>

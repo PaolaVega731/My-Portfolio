@@ -24,7 +24,7 @@ function NavBarMobile() {
         </button>
       </div>
       {isMenuOpen && (
-        <nav>
+        <nav className="text-white ">
           <ul className="px-4">
             <li onClick={closeMenu}>
               <Link to="/">{t("home")}</Link>
@@ -44,7 +44,9 @@ function NavBarMobile() {
           </ul>
         </nav>
       )}
-      <LanguageSwitcher />
+      <div className="ml-auto mr-4"> 
+        <LanguageSwitcher />
+      </div>
     </div>
   );
 }

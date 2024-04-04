@@ -76,7 +76,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="text-center mb-8">
+      <div className="text-center mb-8 -mt-12">
         <h2 className="text-2xl lg:text-4xl font-bold">{t("projectsTitle")}</h2>
       </div>
       <div className="min-h-screen flex flex-col items-center">
