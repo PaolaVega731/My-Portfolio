@@ -17,7 +17,7 @@ function Educacion() {
             <p className="text-2xl">{t("curso11")}</p>
           </div>
           <button
-            className="certificado-btn bg-gray-600 text-white text-lg px-3 py-1 rounded-full ml-4"
+            className="certificado-btn bg-gray-600 text-white text-lg px-3 py-1 rounded-full ml-4 hover:opacity-80"
             onClick={() => setMostrarCertificado1(!mostrarCertificado1)}
           >
             {t("curso")}
@@ -30,7 +30,7 @@ function Educacion() {
             <p className="text-2xl">{t("curso22")}</p>
           </div>
           <button
-            className="certificado-btn bg-gray-600 text-white text-lg px-3 py-1 rounded-full ml-4"
+            className="certificado-btn bg-gray-600 text-white text-lg px-3 py-1 rounded-full ml-4 hover:opacity-80"
             onClick={() => setMostrarCertificado2(!mostrarCertificado2)}
           >
             {t("curso")}
@@ -43,29 +43,29 @@ function Educacion() {
             <p className="text-2xl">{t("curso3")}</p>
           </div>
           <button
-            className="certificado-btn bg-gray-600 text-white text-lg px-3 py-1 rounded-full ml-4"
+            className="certificado-btn bg-gray-600 text-white text-lg px-3 py-1 rounded-full ml-4 hover:opacity-80"
             onClick={() => setMostrarCertificado3(!mostrarCertificado3)}
           >
             {t("curso")}
           </button>
         </div>
       </div>
-      <div className="certificado-overlay ml-8">
-        <div className={`certificado ${mostrarCertificado1 ? "block" : "hidden"}`}>
+      <div className="certificado-overlay ml-8 flex flex-col bg-slate-300 mr-40">
+        <div className={mostrarCertificado1 ? "block" : "hidden"}>
           <img
             className="w-90 h-80"
             src="/My-Portfolio/Certificado Desarrollo Web.jpeg"
             alt="Certificado JavaScript"
           />
         </div>
-        <div className={`certificado ${mostrarCertificado2 ? "block" : "hidden"}`}>
+        <div className={mostrarCertificado2 ? "block" : "hidden"}>
           <img
             className="w-90 h-80"
             src="/My-Portfolio/Certificado JavaScript.jpg"
             alt="Certificado JavaScript"
           />
         </div>
-        <div className={`certificado ${mostrarCertificado3 ? "block" : "hidden"}`}>
+        <div className={mostrarCertificado3 ? "block" : "hidden"}>
           <img
             className="w-90 h-80"
             src="/My-Portfolio/Certificado React.jpg"

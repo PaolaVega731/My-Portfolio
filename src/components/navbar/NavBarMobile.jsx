@@ -16,7 +16,7 @@ function NavBarMobile() {
   };
 
   return (
-    <div className="flex flex-col bg-gray-600">
+    <div className="flex min-h-20 py-2 bg-gray-600">
       <div className="flex justify-between p-4">
         
         <button className="text-white text-xl" onClick={toggleMenu}>

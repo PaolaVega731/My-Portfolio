@@ -45,8 +45,9 @@ i18n.use(initReactI18next).init({
         curso33: "September 2023 - November 2023",
         leng: "Programming languages",
         leng1: "Frameworks and libraries",
-        leng2: "Training in...",
+        leng2: "Training in",
         contact: "Contact me!",
+        contactText: "Let's build the future together! Contact me to explore how I can bring value to your team and projects! 🚀"
       },
     },
     es: {
@@ -67,7 +68,7 @@ i18n.use(initReactI18next).init({
         últimos 6 años adquirí también conocimientos en Analista en Comercio
         Exterior y Control de logística en una Planta Química. A finales del
         2022 decidí darle un giro importante a mi carrera profesional y
-        comencé con mis estudios de Programación Web.
+        comencé con mis estudios de Programación Web. 
         Actualmente sigo capacitandome en Programación Backend y busco ampliar
         mi campo laboral en el mundo del Desarrollo Web.`,
         check: "Mirá mi experiencia laboral en detalle en:",
@@ -100,8 +101,9 @@ i18n.use(initReactI18next).init({
         curso33: "Septiembre 2023 - Noviembre 2023",
         leng: "Lenguajes de programación",
         leng1: "Frameworks y librerías",
-        leng2: "Formándome en...",
+        leng2: "Formándome en",
         contact: "Contáctame!",
+        contactText: "¡Construyamos juntos el futuro! ¡Contáctame para explorar cómo puedo aportar valor a tu equipo y proyectos! 🚀"
       },
     },
   },

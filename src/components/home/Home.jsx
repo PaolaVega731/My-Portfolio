@@ -9,7 +9,7 @@ function Home() {
     {
       title: "KGC",
       image: "/My-Portfolio/Kgc.jpeg",
-      tech: "React, Tailwind",
+      tech: "React, Tailwind, Azure",
       linkGithub: "https://github.com/PaolaVega731/Paginasgsi2",
       linkWeb: "https://sgsi-web2-dev-eastus.azurewebsites.net/",
       description: t("description"),
@@ -17,7 +17,7 @@ function Home() {
     {
       title: "Les Vegetarianes",
       image: "/My-Portfolio/Les Vegetarianes.png",
-      tech: "HTML, CSS, JavaScript",
+      tech: "Html, Css, JavaScript, Bootstrap",
       linkGithub: "https://github.com/PaolaVega731/LesVegetarianes",
       linkWeb: "https://paolavega731.github.io/LesVegetarianes/index.html",
       description: t("description1"),
@@ -25,7 +25,7 @@ function Home() {
     {
       title: "OrganiChic",
       image: "/My-Portfolio/OrganiChic.png",
-      tech: "React, Bootstrap, Css",
+      tech: "React, Bootstrap, Css, Firebase, Vercel",
       linkGithub: "https://github.com/PaolaVega731/Organichic",
       linkWeb: "https://organichic-efzw.vercel.app/",
       description: t("description2"),

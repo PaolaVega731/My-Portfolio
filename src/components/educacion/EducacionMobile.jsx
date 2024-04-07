@@ -8,12 +8,11 @@ function EducacionMobile() {
   const { t } = useTranslation();
 
   return (
-    <div className='min-h-screen flex items-center justify-center'>
-      <div className='flex flex-col items-center justify-center lg:mt-0 mx-auto max-w-md md:max-w-full md:flex md:flex-col md:items-center pt-10'>
+    <div className="min-h-screen flex items-center justify-center mb-10">
+      <div className="x-4 flex flex-col items-center justify-center lg:mt-0 max-w-md md:max-w-full md:flex md:flex-col md:items-center pt-10">
         <div className='flex flex-col space-y-4 items-center md:items-start'>
           <li className='text-2xl italic hover:not-italic'>{t("curso1")}</li>
           <p className='text-lg'> CoderHouse</p>
-          <p>{t("curso11")}</p>
           <p>{t("curso11")}</p>
           <div>
             <p>{t("curso111")}</p>
@@ -24,7 +23,7 @@ function EducacionMobile() {
           >
             {t("curso")}
           </button>
-          <div className={`certificado ${mostrarCertificado1 ? "block" : "hidden"}`}>
+          <div className={mostrarCertificado1 ? "block" : "hidden"}>
             <img
               className='w-90 h-80'
               src='/My-Portfolio/Certificado Desarrollo Web.jpeg'
@@ -45,7 +44,7 @@ function EducacionMobile() {
           >
             {t("curso")}
           </button>
-          <div className={`certificado ${mostrarCertificado2 ? "block" : "hidden"}`}>
+          <div className={mostrarCertificado2 ? "block" : "hidden"}>
             <img
               className='w-90 h-80'
               src='/My-Portfolio/Certificado JavaScript.jpg'
@@ -66,7 +65,7 @@ function EducacionMobile() {
           >
             {t("curso")}
           </button>
-          <div className={`certificado ${mostrarCertificado3 ? "block" : "hidden"}`}>
+          <div className={mostrarCertificado3 ? "block" : "hidden"}>
             <img
               className='w-90 h-80'
               src='/My-Portfolio/Certificado React.jpg'
