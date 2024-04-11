@@ -11,7 +11,7 @@ function Home() {
       image: "/My-Portfolio/Kgc.jpeg",
       tech: "React, Tailwind, Azure",
       linkGithub: "https://github.com/PaolaVega731/Paginasgsi2",
-      linkWeb: "https://sgsi-web2-dev-eastus.azurewebsites.net/",
+      linkWeb: "https://paginasgsi2.vercel.app/",
       description: t("description"),
     },
     {
@@ -64,7 +64,7 @@ function Home() {
               </h2>
             </div>
             <a
-              href="/My-Portfolio/CV Paola Vega.jpeg"
+              href="/My-Portfolio/CV Desarrolladora Web.pdf"
               className="bg-gray-600 text-white px-4 py-2 rounded inline-block "
               target="_blank"
               rel="noopener noreferrer"
