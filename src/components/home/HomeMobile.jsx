@@ -19,7 +19,7 @@ function HomeMobile() {
                             <h2 className='p-6 text-lg md:text-xl lg:text-2xl 2xl:text-3xl'>{t("welcome")}</h2>
                         </div>
                         <a
-                            href='/My-Portfolio/CV Paola Vega.jpeg'
+                            href='/My-Portfolio/CV Desarrolladora Web.pdf'
                             className='bg-gray-600 text-white px-4 py-2 rounded inline-block'
                             target='_blank'
                             rel='noopener noreferrer'
@@ -52,7 +52,7 @@ function HomeMobile() {
                                 {t("work111")}
                             </a>
                             <a
-                                href="https://sgsi-web2-dev-eastus.azurewebsites.net/"
+                                href="https://paginasgsi2.vercel.app/"
                                 className="text-cyan-600 hover:underline block"
                                 target="_blank"
                                 rel="noopener noreferrer"
